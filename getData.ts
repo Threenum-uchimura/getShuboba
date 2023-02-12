@@ -148,7 +148,6 @@ const makeEmptyXlsx = (filePath: string): Promise<void> => {
 // main
 (async (): Promise<void> => {
   try {
-    console.log('hoge');
     // variables
     let tmpArray: string[] = [];
     let strArray: string[][] = [];
@@ -162,7 +161,6 @@ const makeEmptyXlsx = (filePath: string): Promise<void> => {
 
     // counter
     let counter: number = 0;
-    console.log('hage');
     // loop urls
     for (const url of linkArray) {
       console.log(`scraping...${counter}`);
